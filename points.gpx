@@ -3,16 +3,11 @@
   <metadata>
     <name>My GPX File</name>
   </metadata>
-  <wpt lat="51.508" lon="-0.125">
-    <name>London</name>
-    <desc>London, United Kingdom</desc>
-  </wpt>
-  <wpt lat="40.7128" lon="-74.006">
-    <name>New York</name>
-    <desc>New York, USA</desc>
-  </wpt>
-  <wpt lat="48.8566" lon="2.3522">
-    <name>Paris</name>
-    <desc>Paris, France</desc>
-  </wpt>
+  <!-- Генерация случайных точек -->
+  {% for i in range(100) %}
+    <wpt lat="{{ getRandom(-90, 90) }}" lon="{{ getRandom(-180, 180) }}">
+      <name>Point {{ i + 1 }}</name>
+      <desc>Random Point {{ i + 1 }}</desc>
+    </wpt>
+  {% endfor %}
 </gpx>

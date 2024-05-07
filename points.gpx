@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Your Name" xmlns="http://www.topografix.com/GPX/1/1">
+  <metadata>
+    <name>My GPX File</name>
+  </metadata>
+  <wpt lat="51.508" lon="-0.125">
+    <name>London</name>
+    <desc>London, United Kingdom</desc>
+  </wpt>
+  <wpt lat="40.7128" lon="-74.006">
+    <name>New York</name>
+    <desc>New York, USA</desc>
+  </wpt>
+  <wpt lat="48.8566" lon="2.3522">
+    <name>Paris</name>
+    <desc>Paris, France</desc>
+  </wpt>
+</gpx>

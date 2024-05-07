@@ -3,11 +3,505 @@
   <metadata>
     <name>My GPX File</name>
   </metadata>
-  <!-- Генерация случайных точек -->
-  {% for i in range(100) %}
-    <wpt lat="{{ getRandom(-90, 90) }}" lon="{{ getRandom(-180, 180) }}">
-      <name>Point {{ i + 1 }}</name>
-      <desc>Random Point {{ i + 1 }}</desc>
-    </wpt>
-  {% endfor %}
+  
+  <wpt lat="-23.44987237837877" lon="-165.13399033016543">
+    <name>Point 1</name>
+    <desc>Random Point 1</desc>
+  </wpt>
+
+  <wpt lat="-24.810604318249446" lon="150.88195067821863">
+    <name>Point 2</name>
+    <desc>Random Point 2</desc>
+  </wpt>
+
+  <wpt lat="43.22616195724112" lon="160.79819623234772">
+    <name>Point 3</name>
+    <desc>Random Point 3</desc>
+  </wpt>
+
+  <wpt lat="62.729922181994" lon="61.64631938767775">
+    <name>Point 4</name>
+    <desc>Random Point 4</desc>
+  </wpt>
+
+  <wpt lat="75.38184539555823" lon="56.370718096733754">
+    <name>Point 5</name>
+    <desc>Random Point 5</desc>
+  </wpt>
+
+  <wpt lat="-26.888132371893875" lon="16.64646034006728">
+    <name>Point 6</name>
+    <desc>Random Point 6</desc>
+  </wpt>
+
+  <wpt lat="-30.19085915516559" lon="29.258216629865757">
+    <name>Point 7</name>
+    <desc>Random Point 7</desc>
+  </wpt>
+
+  <wpt lat="40.76133221814274" lon="45.21698398445244">
+    <name>Point 8</name>
+    <desc>Random Point 8</desc>
+  </wpt>
+
+  <wpt lat="39.78747107912952" lon="125.18856518918494">
+    <name>Point 9</name>
+    <desc>Random Point 9</desc>
+  </wpt>
+
+  <wpt lat="58.31210132656318" lon="-129.08403003160424">
+    <name>Point 10</name>
+    <desc>Random Point 10</desc>
+  </wpt>
+
+  <wpt lat="52.20622210669086" lon="152.36129435568495">
+    <name>Point 11</name>
+    <desc>Random Point 11</desc>
+  </wpt>
+
+  <wpt lat="-18.435300250978685" lon="118.0799511708156">
+    <name>Point 12</name>
+    <desc>Random Point 12</desc>
+  </wpt>
+
+  <wpt lat="-51.509725777547395" lon="139.69281752501246">
+    <name>Point 13</name>
+    <desc>Random Point 13</desc>
+  </wpt>
+
+  <wpt lat="4.855543473414443" lon="-150.63032701528402">
+    <name>Point 14</name>
+    <desc>Random Point 14</desc>
+  </wpt>
+
+  <wpt lat="-77.69080131826374" lon="107.26914031914833">
+    <name>Point 15</name>
+    <desc>Random Point 15</desc>
+  </wpt>
+
+  <wpt lat="27.001212634734486" lon="23.684130855213226">
+    <name>Point 16</name>
+    <desc>Random Point 16</desc>
+  </wpt>
+
+  <wpt lat="-44.08656966358629" lon="-166.60792669829198">
+    <name>Point 17</name>
+    <desc>Random Point 17</desc>
+  </wpt>
+
+  <wpt lat="-38.48148731666968" lon="103.67882309732568">
+    <name>Point 18</name>
+    <desc>Random Point 18</desc>
+  </wpt>
+
+  <wpt lat="-69.92900427299283" lon="147.9812234338272">
+    <name>Point 19</name>
+    <desc>Random Point 19</desc>
+  </wpt>
+
+  <wpt lat="-21.82766493171802" lon="171.85503813189905">
+    <name>Point 20</name>
+    <desc>Random Point 20</desc>
+  </wpt>
+
+  <wpt lat="-77.9790033407196" lon="-120.8282995544118">
+    <name>Point 21</name>
+    <desc>Random Point 21</desc>
+  </wpt>
+
+  <wpt lat="84.31256616276082" lon="164.88750376487855">
+    <name>Point 22</name>
+    <desc>Random Point 22</desc>
+  </wpt>
+
+  <wpt lat="-27.050449228890116" lon="157.3799734233014">
+    <name>Point 23</name>
+    <desc>Random Point 23</desc>
+  </wpt>
+
+  <wpt lat="-32.138743225609886" lon="-113.23488360448616">
+    <name>Point 24</name>
+    <desc>Random Point 24</desc>
+  </wpt>
+
+  <wpt lat="29.89884552038359" lon="29.526764901578588">
+    <name>Point 25</name>
+    <desc>Random Point 25</desc>
+  </wpt>
+
+  <wpt lat="65.02475145496211" lon="153.12875285939293">
+    <name>Point 26</name>
+    <desc>Random Point 26</desc>
+  </wpt>
+
+  <wpt lat="46.433435660523145" lon="-170.13376073828883">
+    <name>Point 27</name>
+    <desc>Random Point 27</desc>
+  </wpt>
+
+  <wpt lat="32.70190211714275" lon="178.98019817520372">
+    <name>Point 28</name>
+    <desc>Random Point 28</desc>
+  </wpt>
+
+  <wpt lat="28.42123720466583" lon="158.55078942522766">
+    <name>Point 29</name>
+    <desc>Random Point 29</desc>
+  </wpt>
+
+  <wpt lat="32.931789378633155" lon="143.70905815835096">
+    <name>Point 30</name>
+    <desc>Random Point 30</desc>
+  </wpt>
+
+  <wpt lat="-44.87319116142332" lon="73.07434114599485">
+    <name>Point 31</name>
+    <desc>Random Point 31</desc>
+  </wpt>
+
+  <wpt lat="13.318746846745853" lon="-13.349832636782367">
+    <name>Point 32</name>
+    <desc>Random Point 32</desc>
+  </wpt>
+
+  <wpt lat="-71.01200572014181" lon="135.29808355703426">
+    <name>Point 33</name>
+    <desc>Random Point 33</desc>
+  </wpt>
+
+  <wpt lat="36.45975095979665" lon="-87.0863850175678">
+    <name>Point 34</name>
+    <desc>Random Point 34</desc>
+  </wpt>
+
+  <wpt lat="-27.66493806570901" lon="-138.57198155663627">
+    <name>Point 35</name>
+    <desc>Random Point 35</desc>
+  </wpt>
+
+  <wpt lat="-45.32439199416585" lon="73.40592025042258">
+    <name>Point 36</name>
+    <desc>Random Point 36</desc>
+  </wpt>
+
+  <wpt lat="-54.61930252722148" lon="-53.03518170305317">
+    <name>Point 37</name>
+    <desc>Random Point 37</desc>
+  </wpt>
+
+  <wpt lat="-14.680312931465593" lon="-104.77368459467345">
+    <name>Point 38</name>
+    <desc>Random Point 38</desc>
+  </wpt>
+
+  <wpt lat="-0.23250620195061344" lon="-16.14147638625272">
+    <name>Point 39</name>
+    <desc>Random Point 39</desc>
+  </wpt>
+
+  <wpt lat="83.860870237335" lon="36.27566164106702">
+    <name>Point 40</name>
+    <desc>Random Point 40</desc>
+  </wpt>
+
+  <wpt lat="-59.30685016481884" lon="-63.205297107071104">
+    <name>Point 41</name>
+    <desc>Random Point 41</desc>
+  </wpt>
+
+  <wpt lat="-55.33211137369371" lon="125.95412718561693">
+    <name>Point 42</name>
+    <desc>Random Point 42</desc>
+  </wpt>
+
+  <wpt lat="-4.691792077667685" lon="-7.457403048529841">
+    <name>Point 43</name>
+    <desc>Random Point 43</desc>
+  </wpt>
+
+  <wpt lat="-71.87889497320815" lon="52.68826496486099">
+    <name>Point 44</name>
+    <desc>Random Point 44</desc>
+  </wpt>
+
+  <wpt lat="-55.64816913039358" lon="-131.14637977655707">
+    <name>Point 45</name>
+    <desc>Random Point 45</desc>
+  </wpt>
+
+  <wpt lat="-32.063419404534784" lon="132.27664027141765">
+    <name>Point 46</name>
+    <desc>Random Point 46</desc>
+  </wpt>
+
+  <wpt lat="64.25706429684541" lon="35.78405152115096">
+    <name>Point 47</name>
+    <desc>Random Point 47</desc>
+  </wpt>
+
+  <wpt lat="79.00057477772862" lon="-173.5140234358835">
+    <name>Point 48</name>
+    <desc>Random Point 48</desc>
+  </wpt>
+
+  <wpt lat="-25.89989028917917" lon="150.5447140813356">
+    <name>Point 49</name>
+    <desc>Random Point 49</desc>
+  </wpt>
+
+  <wpt lat="75.90288595636011" lon="-84.042743383271">
+    <name>Point 50</name>
+    <desc>Random Point 50</desc>
+  </wpt>
+
+  <wpt lat="-12.812633825113352" lon="137.85024792924924">
+    <name>Point 51</name>
+    <desc>Random Point 51</desc>
+  </wpt>
+
+  <wpt lat="53.938779550915314" lon="58.0318984341755">
+    <name>Point 52</name>
+    <desc>Random Point 52</desc>
+  </wpt>
+
+  <wpt lat="38.172630194535316" lon="-176.29579020709642">
+    <name>Point 53</name>
+    <desc>Random Point 53</desc>
+  </wpt>
+
+  <wpt lat="-26.632990562251855" lon="124.15546460373531">
+    <name>Point 54</name>
+    <desc>Random Point 54</desc>
+  </wpt>
+
+  <wpt lat="52.25213706886214" lon="-156.06128154477565">
+    <name>Point 55</name>
+    <desc>Random Point 55</desc>
+  </wpt>
+
+  <wpt lat="-79.2144638204957" lon="15.654573574418635">
+    <name>Point 56</name>
+    <desc>Random Point 56</desc>
+  </wpt>
+
+  <wpt lat="23.705369262898515" lon="-98.97262957076443">
+    <name>Point 57</name>
+    <desc>Random Point 57</desc>
+  </wpt>
+
+  <wpt lat="-38.179568783016244" lon="-3.3991040677897217">
+    <name>Point 58</name>
+    <desc>Random Point 58</desc>
+  </wpt>
+
+  <wpt lat="9.933509330857916" lon="-93.28979065909141">
+    <name>Point 59</name>
+    <desc>Random Point 59</desc>
+  </wpt>
+
+  <wpt lat="-76.75437419550602" lon="-38.305249656271">
+    <name>Point 60</name>
+    <desc>Random Point 60</desc>
+  </wpt>
+
+  <wpt lat="85.74275225162341" lon="-58.76418527906493">
+    <name>Point 61</name>
+    <desc>Random Point 61</desc>
+  </wpt>
+
+  <wpt lat="-20.759644065616342" lon="166.30208779601116">
+    <name>Point 62</name>
+    <desc>Random Point 62</desc>
+  </wpt>
+
+  <wpt lat="-6.451116584949787" lon="140.92267254044702">
+    <name>Point 63</name>
+    <desc>Random Point 63</desc>
+  </wpt>
+
+  <wpt lat="78.33611770680986" lon="-91.13857420173886">
+    <name>Point 64</name>
+    <desc>Random Point 64</desc>
+  </wpt>
+
+  <wpt lat="-89.860084069758" lon="96.71034454470117">
+    <name>Point 65</name>
+    <desc>Random Point 65</desc>
+  </wpt>
+
+  <wpt lat="4.763335634035315" lon="-169.38657645725488">
+    <name>Point 66</name>
+    <desc>Random Point 66</desc>
+  </wpt>
+
+  <wpt lat="-47.95464188372074" lon="-152.26414686652527">
+    <name>Point 67</name>
+    <desc>Random Point 67</desc>
+  </wpt>
+
+  <wpt lat="-26.991145058846357" lon="-74.28453719271383">
+    <name>Point 68</name>
+    <desc>Random Point 68</desc>
+  </wpt>
+
+  <wpt lat="79.14873510057049" lon="148.4027787948924">
+    <name>Point 69</name>
+    <desc>Random Point 69</desc>
+  </wpt>
+
+  <wpt lat="71.42351384713461" lon="160.69205077140668">
+    <name>Point 70</name>
+    <desc>Random Point 70</desc>
+  </wpt>
+
+  <wpt lat="-22.08897071424353" lon="27.59543766563951">
+    <name>Point 71</name>
+    <desc>Random Point 71</desc>
+  </wpt>
+
+  <wpt lat="-3.4662870020891177" lon="117.9229875317597">
+    <name>Point 72</name>
+    <desc>Random Point 72</desc>
+  </wpt>
+
+  <wpt lat="-5.619129993383382" lon="153.95694023024544">
+    <name>Point 73</name>
+    <desc>Random Point 73</desc>
+  </wpt>
+
+  <wpt lat="-82.58485463069346" lon="-13.14577402638136">
+    <name>Point 74</name>
+    <desc>Random Point 74</desc>
+  </wpt>
+
+  <wpt lat="7.786842684351427" lon="-117.90440326415538">
+    <name>Point 75</name>
+    <desc>Random Point 75</desc>
+  </wpt>
+
+  <wpt lat="-7.761764126447588" lon="81.81203740885655">
+    <name>Point 76</name>
+    <desc>Random Point 76</desc>
+  </wpt>
+
+  <wpt lat="-15.421525045101916" lon="-101.51545500258814">
+    <name>Point 77</name>
+    <desc>Random Point 77</desc>
+  </wpt>
+
+  <wpt lat="-81.68191616393698" lon="-53.45330807406073">
+    <name>Point 78</name>
+    <desc>Random Point 78</desc>
+  </wpt>
+
+  <wpt lat="14.575253847209737" lon="108.82203985599466">
+    <name>Point 79</name>
+    <desc>Random Point 79</desc>
+  </wpt>
+
+  <wpt lat="15.601548659979713" lon="-149.51082445949106">
+    <name>Point 80</name>
+    <desc>Random Point 80</desc>
+  </wpt>
+
+  <wpt lat="-43.9593463227723" lon="38.79573378093977">
+    <name>Point 81</name>
+    <desc>Random Point 81</desc>
+  </wpt>
+
+  <wpt lat="8.869982544621095" lon="-50.6984035710297">
+    <name>Point 82</name>
+    <desc>Random Point 82</desc>
+  </wpt>
+
+  <wpt lat="-81.83442312792513" lon="80.47571883817011">
+    <name>Point 83</name>
+    <desc>Random Point 83</desc>
+  </wpt>
+
+  <wpt lat="49.860319908366876" lon="172.3652547384363">
+    <name>Point 84</name>
+    <desc>Random Point 84</desc>
+  </wpt>
+
+  <wpt lat="51.184138014682475" lon="107.06512109675322">
+    <name>Point 85</name>
+    <desc>Random Point 85</desc>
+  </wpt>
+
+  <wpt lat="35.189062306016794" lon="20.694433269442015">
+    <name>Point 86</name>
+    <desc>Random Point 86</desc>
+  </wpt>
+
+  <wpt lat="-71.5214466211477" lon="-117.39143025698252">
+    <name>Point 87</name>
+    <desc>Random Point 87</desc>
+  </wpt>
+
+  <wpt lat="17.28301544528756" lon="-20.38034939385338">
+    <name>Point 88</name>
+    <desc>Random Point 88</desc>
+  </wpt>
+
+  <wpt lat="-82.00744769250365" lon="172.9072321605571">
+    <name>Point 89</name>
+    <desc>Random Point 89</desc>
+  </wpt>
+
+  <wpt lat="-78.07262299815653" lon="-54.43983633230114">
+    <name>Point 90</name>
+    <desc>Random Point 90</desc>
+  </wpt>
+
+  <wpt lat="88.13904591220677" lon="79.95827681011497">
+    <name>Point 91</name>
+    <desc>Random Point 91</desc>
+  </wpt>
+
+  <wpt lat="-23.97290386172152" lon="47.587747232664356">
+    <name>Point 92</name>
+    <desc>Random Point 92</desc>
+  </wpt>
+
+  <wpt lat="-15.179968176671338" lon="-55.22665448265292">
+    <name>Point 93</name>
+    <desc>Random Point 93</desc>
+  </wpt>
+
+  <wpt lat="72.37280678018348" lon="90.4789037335824">
+    <name>Point 94</name>
+    <desc>Random Point 94</desc>
+  </wpt>
+
+  <wpt lat="-40.23369929944178" lon="-62.08822734834159">
+    <name>Point 95</name>
+    <desc>Random Point 95</desc>
+  </wpt>
+
+  <wpt lat="42.54231586571973" lon="-172.74513363612036">
+    <name>Point 96</name>
+    <desc>Random Point 96</desc>
+  </wpt>
+
+  <wpt lat="82.79177427288991" lon="-141.22672848388942">
+    <name>Point 97</name>
+    <desc>Random Point 97</desc>
+  </wpt>
+
+  <wpt lat="-42.20933173934893" lon="102.89829430496121">
+    <name>Point 98</name>
+    <desc>Random Point 98</desc>
+  </wpt>
+
+  <wpt lat="-48.62827248939895" lon="-144.23762458286677">
+    <name>Point 99</name>
+    <desc>Random Point 99</desc>
+  </wpt>
+
+  <wpt lat="60.60460491540391" lon="-91.80346546173817">
+    <name>Point 100</name>
+    <desc>Random Point 100</desc>
+  </wpt>
+
 </gpx>
